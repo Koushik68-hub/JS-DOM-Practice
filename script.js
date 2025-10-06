@@ -40,7 +40,7 @@ const img = document.querySelector("#image");
 const prevButton = document.querySelector("#prevBtn")
 const nextButton = document.querySelector("#nextBtn")
 
-const images = ['image/portfolio-1.jpg','image/portfolio-3.jpg', 'image/portfolio-4.jpg', 'image/portfolio-5.jpg'];
+const images = ['portfolio-1.jpg','portfolio-3.jpg', 'portfolio-4.jpg', 'portfolio-5.jpg'];
 
 let index = 0;
 
