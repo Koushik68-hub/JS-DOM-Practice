@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="m-10 bg-gray-300 h-[100px] text-center py-5">
+        <p class="text-xl font-bold" id="para">Hello Everyone</p>
+        <button class="p-1 bg-green-300 px-4 my-2 rounded-full" id="btn">Click to chage text!</button>
+    </div>
+
+    <div class="m-10 bg-gray-300 h-[100px] text-center py-5">
+        <button class="py-1 px-4 bg-green-300 my-2 rounded-full" id="btn2" onclick="buttonClicked()">Toggle</button>
+    </div>
+
+    <div class="m-10 bg-gray-300 h-[100px] text-center py-5">
+        <p class="text-xl font-bold" id="count">0</p>
+        <button class="py-1 px-4 bg-green-300 my-2 rounded-full" id="btn3">Increase Num</button>
+    </div>
+
+    <!-- <div class="m-10 bg-gray-300 h-[100px] text-center py-5">
+        <input class="p-1" type="text" placeholder="Type something..." id="text1"/>
+        <p class="py-2" id="text2">Text will appear here...</p>
+    </div> -->
+
+    <div class="m-10 bg-gray-300 h-[400px] text-center py-5">
+        <img id="image" class='py-10 px-10 h-[300px] items-center ' src="/image/portfolio-3.jpg">
+        <button class="py-1 px-4 bg-green-300 my-2 rounded-full" id="prevBtn">< Previous</button>
+        <button class="py-1 px-4 bg-green-300 my-2 mx-4 rounded-full" id="nextBtn">Next > </button>
+    </div>
+
+    <div class="m-10 bg-gray-300 h-[130px] text-center py-5">
+        <p class="font-bold text-lg" id="para2"> Hello Everyone.Click the 'Hide' button to hide this easily</p>
+        <button class="py-1 px-4 bg-green-300 my-2 mx-4 rounded-full" id="btn4">Hide</button>
+    </div>
+
+    <div class="m-10 bg-gray-300 h-[140px] text-center py-5">
+        <form id="form">
+            <input class="w-[400px] mt-2 p-2 text-md rounded-xl" type="email" id="email" placeholder="Enter your email"></input>
+            <br>
+            <button class="mt-4 py-1 px-4 bg-green-300 mx-4 rounded-full" id="btn5">Submit</button><br>
+            <span class="text-red-500 font-lg mt-4"  id="warning" class="warning"></span> 
+        </form>
+    </div>
+
+    <div id="div" class="m-10 bg-gray-300 h-[140px] text-center py-5">
+    </div>
+
+    <div id="div" class="m-10 bg-gray-300 text-center py-5">
+        <ul id="list">
+            <li class="text-lg font-bold">Item number 1  <br>
+            <button class="delete-btn mt-4 py-1 px-4 bg-green-300 mx-4 rounded-full" id="btn5">Delete</button>
+            </li>
+            <li class="text-lg font-bold pt-5">Item number 2   <br>
+            <button class="delete-btn mt-4 py-1 px-4 bg-green-300 mx-4 rounded-full" id="btn5">Delete</button>
+            </li>
+            <li class="text-lg font-bold pt-5">Item number 3  <br>
+            <button class="delete-btn mt-4 py-1 px-4 bg-green-300 mx-4 rounded-full" id="btn5">Delete</button>
+            </li>
+            <li class="text-lg font-bold pt-5">Item number 4   <br>
+            <button class="delete-btn mt-4 py-1 px-4 bg-green-300 mx-4 rounded-full" >Delete</button>
+            </li>
+
+            
+        </ul>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
